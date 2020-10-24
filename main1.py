@@ -156,14 +156,6 @@ if __name__ == '__main__':
 
     wandb.watch(model)
 
-    wandb.log({"Train Loss": 2435.072, "Val Loss": 595.782, "Val WER:": 100.201})
-
-    wandb.log({"Train Loss": 2373.003, "Val Loss": 675.797, "Val WER:": 100.0})
-
-    wandb.log({"Train Loss": 2373.0, "Val Loss": 594.427, "Val WER:": 117.0})
-
-    wandb.log({"Train Loss": 2286.361, "Val Loss": 575.588, "Val WER:": 104.293})
-
     for epoch in range(max(start_epoch, 0), n_epochs):
         running_loss = 0.0
         val_loss = 0.0

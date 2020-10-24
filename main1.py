@@ -117,11 +117,11 @@ if __name__ == '__main__':
     sr = 16000
     n_mels = 64
 
-    lr = 0.0016442134397026131
+    lr = 0.1
 
-    n_epochs = 10
+    n_epochs = 6
 
-    start_epoch = 4
+    start_epoch = -1
 
     n_classes = len(word_to_idx)
 
